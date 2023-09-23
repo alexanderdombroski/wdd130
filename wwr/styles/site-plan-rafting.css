@@ -6,26 +6,27 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #38B6FF ;
-  --secondary-color: #FFDE59 ;
-  --accent1-color: #454EFF;
+  --primary-color: #23267D;
+  --secondary-color: #FFDE59;
+  --accent1-color: #38B6FF;
   --accent2-color: #E0F4FF;
   /* Brown #C2851E */
+
 
   /* change the values below to your chosen font(s) */
   --heading-font: Kalam;
   --paragraph-font: Ubuntu, Verdana, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #23267D;  /* headlines on a white background */ 
   --headline-color-on-color: #E0F4FF; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #23267D; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #E0F4FF; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94;
-  --nav-link-color: #396E94;
+  --paragraph-background-color: #23267D;
+  --nav-link-color: #23267D;
   --nav-background-color: #FFDE59;
   --nav-hover-link-color: #E0F4FF;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #23267D;
 }
 
 
