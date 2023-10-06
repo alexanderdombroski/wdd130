@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #23267D;
+    --secondary-color: #FFDE59;
+    --accent1-color: #38B6FF;
+    --accent2-color: #E0F4FF;
+    /* Brown #C2851E */
+  
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: Kalam;
+    --paragraph-font: Ubuntu, Verdana, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #23267D ;  /* headlines on a white background */ 
+    --headline-color-on-color: #E0F4FF; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #23267D ; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #E0F4FF; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #23267D ;
+    --nav-link-color: #23267D ;
+    --nav-background-color: #FFDE59;
+    --nav-hover-link-color: #E0F4FF;
+    --nav-hover-background-color: #23267D ;
+}
+
+body {
+    background-color: var(--accent2-color);
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+.logo {
+    width: 80px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: var(--nav-background-color);
+}
+
+nav a {
+    text-align: center;
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+/* Hero */
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.home-title {
+    color: var(--accent2-color);
+}
+
+h4 {
+    color: var(--primary-color);
+}
+
+.book, .join {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.button-box {
+    text-align: center;
+}
+
+/* Main Section */
+
+main section {
+    text-align: center;
+}
+
+main h2 {
+    color: var(--headline-color-on-white);
+}
+
+#background {
+    height: 725px;
+    background-color: var(--primary-color);
+}
+
+.icon {
+    width: 80px;
+}
+
+/* Message */
+
+.msg {
+    background-color: var(--primary-color);
+}
+
+.msg h2 {
+    color: var(--headline-color-on-color);
+}
+
+.msg p {
+    color: var(--paragraph-color-on-color);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
