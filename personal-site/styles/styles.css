@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Sedgwick+Ave+Display&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-    --boom-font: "Sedgwick Ave Display", impact, courier;
+    --boom-font: "Sedgwick Ave Display", Impact, Courier;
     --heading-font: Alkalami, Helvetica, Tahoma;
     --paragraph-font: Ubuntu, "Open Sans", sans-serif;
 
