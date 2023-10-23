@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Sedgwick+Ave+Display&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --boom-font: "Sedgwick Ave Display", impact, courier;
+    --heading-font: Alkalami, Helvetica, Tahoma;
+    --paragraph-font: Ubuntu, "Open Sans", sans-serif;
+
+    /* Colors https://coolors.co/393d3f-edfdff-d1603d-62929e-546a7b */
+    
+    --primary-dark: #393d3f;
+    --primary-light: #edfdff;
+    --accent1-color: #62929e;
+    --accent2-color: #546a7b;
+    --accent3-color: #d1603d;
+
+
+
+}
