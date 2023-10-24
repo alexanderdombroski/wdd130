@@ -45,20 +45,26 @@ h2 {
 
 header {
     background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 .logo {
     width: 80px;
 }
 
-#logo-link {
+#logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 /* ------------------------------ Navigation ------------------------------ */
 
 nav {
     background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
