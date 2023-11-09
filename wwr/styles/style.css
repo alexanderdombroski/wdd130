@@ -261,6 +261,43 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* ------------------------------ FAQ Page ------------------------------ */
+
+
+
+.faq-content {
+    text-align: center;
+}
+
+.faq-banner {
+    width: 80%;
+    padding-top: 100px;
+}
+
+.faq-content h1 {
+    padding-top: 50px;
+}
+
+.faq-content h2 {
+    text-align: left;
+    padding: 50px 10% 0 5%;
+}
+
+.faq-content p {
+    text-align: left;
+    padding: 0 10%;
+}
+
+.faq-images {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.faq-images img {
+    width: 80%;
+}
+
 /* ------------------------------ For mobile devices and small windows ------------------------------ */
 
 @media screen and (max-width: 900px) {
