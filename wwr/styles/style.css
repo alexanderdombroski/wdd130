@@ -275,28 +275,33 @@ footer a:hover {
 }
 
 .faq-content h1 {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .faq-content h2 {
     text-align: left;
-    padding: 50px 10% 0 5%;
+    padding: 30px 10% 0 5%;
 }
 
 .faq-content p {
     text-align: left;
     padding: 0 10%;
+    line-height: 1.5em;
 }
 
 .faq-images {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
 }
 
 .faq-images img {
-    width: 80%;
+    height: 300px;
 }
+
 
 /* ------------------------------ For mobile devices and small windows ------------------------------ */
 
@@ -339,5 +344,23 @@ footer a:hover {
     }
     footer {
         margin-top: 25px;
+    }
+
+    /* ---------- FAQ Page ---------- */
+
+    .faq-banner {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .faq-images {
+        display: block;
+        height: auto;
+    }
+    
+    .faq-images img {
+        width: 60%;
+        height: auto;
+        padding: 10px;
     }
 }
