@@ -47,6 +47,18 @@ nav a {
 
 /* --------------- Main --------------- */
 
+main h1 {
+
+}
+
+main h2 {
+
+}
+
+main p {
+
+}
+
 .slider-box {
 
 }
@@ -56,6 +68,26 @@ nav a {
 }
 
 .image-slider img {
+
+}
+
+.pages-description {
+
+}
+
+.pages-description div {
+
+}
+
+.pages-description img {
+
+}
+
+.card-layout {
+
+}
+
+.card-layout img {
 
 }
 
@@ -71,4 +103,36 @@ footer p {
 
 footer a {
 
+}
+
+/* ------------------------------ Strategy Guide Page ------------------------------ */
+
+.resources-grid {
+
+}
+
+.resources-grid img {
+
+}
+
+.faction-guide {
+
+}
+
+/* ------------------------------ Buyer's Guide Page ------------------------------ */
+
+.base-decks {
+
+}
+
+.purchase-options {
+
+}
+
+.boosters {
+
+}
+
+.boosters img {
+  
 }
