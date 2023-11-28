@@ -28,21 +28,46 @@
 /* ------------------------------ Home Page ------------------------------ */
 
 .body {
-    
+    margin: 0 auto;
+    font-size: 12;
 }
 
 /* --------------- Nav --------------- */
 
 .logo {
-
+  width: 100px;
+  margin-left: 0;
 }
 
 nav {
-
+  width: 100%;
+  background-color: var(--nav-background-color);
+  display: flex;
+  align-items: center;
 }
 
 nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  font-family: var(--heading-font);
+  font-size: 1.2em;
+  padding: 0px 25px;
+  min-width: 130px;
+}
 
+nav a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  
+}
+
+.logo-link {
+  width: 100px;
+  padding: 0px;
+  min-width: 100px;
 }
 
 /* --------------- Main --------------- */
