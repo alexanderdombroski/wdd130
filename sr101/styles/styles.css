@@ -358,7 +358,9 @@ footer a:hover {
       cursor: default;
     }
     nav a {
-      width: 90%;
+      width: 50%;
+      height: auto;
+      line-height: 50px;
     }
     .slider-box {
       display: block;
