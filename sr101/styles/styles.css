@@ -27,8 +27,8 @@
 
 /* ------------------------------ Home Page ------------------------------ */
 
-.body {
-    background-color: var(--accent2-color);
+body {
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -365,11 +365,12 @@ footer a:hover {
     }
     .image-slider {
       width: 315px;
-      margin-top: 25px;
+      margin: 25px auto auto auto;
     }
     .card-layout {
       display: block;
       padding: 0;
+      margin: auto 5%;
     }
     .card-layout div {
       width: 90%;
