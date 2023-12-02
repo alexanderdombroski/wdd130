@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Strength Calculator</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo-link"><img class="logo" src="images/sr101-logo.png" alt="logo"></a>
+        <a href="index.html">Home</a>
+        <a href="strategy.html">Strategy Guide</a>
+        <a href="buyers-guide.html">Buyer's Guide</a>
+        <a href="siteplan.html">Site Plan</a>
+        <a href="calculator.html">Calculator</a>
+    </nav>
+    <main class="calculator-page">
+        <h1>Deck Strength Calculator</h1>
+        <p>IMPORTANT: to scroll in the page you will have to do it ouside of the google sheet iframe border.</p>
+        <div class="copy-flex">
+            <p>Somebody using it right now?</p>
+            <a href="https://docs.google.com/spreadsheets/d/1G8Cqwyz3X9Uw1J4HkAXjn3145TGFmp0fg1eKkaqVmcE/copy" target="_blank">Download a Copy</a>
+        </div>
+        <iframe src="https://docs.google.com/spreadsheets/d/163fUm1L1zNtgCubo3UOyyy8-HFSPuhNmBRhp-3EnGMQ/edit?usp=sharing?&amp;rm=minimal&amp;single=true&amp;"></iframe>
+        <div class="calculator-instructions">
+            <div>
+                <h2>Instructions</h2>
+                <ul>
+                    <li>Select which deck you are using.</li>
+                    <li>Select a faction if you would like to narrow your search.</li>
+                    <li>Type in cards to see how strong they are.</li>
+                    <li>A drop down menu can also display a list of available cards.</li>
+                    <li>If you would like to scrap a card, just remove it from the menu.</li>
+                    <li>Change other settings if needed.</li>
+                    <li>Besides size and cycling, averages are measured by amount per turn</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Key</h2>
+                <ul>
+                    <li>Size: Deck size</li>
+                    <li>Cycling: Turns required to draw your whole deck</li>
+                    <li>Value: Average total cost of cards (per turn)</li>
+                    <li>Discard: Cards you force the opponent to discard</li>
+                    <li>Scrap: Cards you can scrap</li>
+                    <li>T-Scrap: Cards you can scrap in the trade row</li>
+                    <li>Defence: Average defence per turn</li>
+                </ul>
+            </div>
+        </div>
+        <h2>Disclaimers</h2>
+        <ul>
+            <li>These stats best represent a situation where you draw a new hand from a shuffled deck.</li>
+            <li>These stats do not fully take into account drawing a card that let's you draw another card. A deck with majority of cards letting you draw a card may not be perfectly represented.</li>
+            <li>This calculator may not be updated with new cards coming out.</li>
+            <li>Due to the way data validation and drop downs works in google sheets, some cards will throw an incorrect error.</li>
+            <li>You'll need to give the app permissions if you want to use the reset script button</li>
+            <li>This is most easily done in a <a href="https://docs.google.com/spreadsheets/d/163fUm1L1zNtgCubo3UOyyy8-HFSPuhNmBRhp-3EnGMQ/edit?usp=sharing" target="_blank">new tab.</a></li>
+        </ul>
+
+
+    </main>
+    <footer>
+        <p>
+            Website created by Alex Dombroski. Star Realms game created by White Wizard Games LLC
+        </p>
+        <a href="index.html">Home</a>
+        <a href="siteplan.html">Site Plan</a>
+    </footer>
+</body>
+</html>
