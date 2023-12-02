@@ -497,18 +497,18 @@ iframe {
 }
 
 .calculator-instructions {
-  margin: 30px 0;
+  margin: 30px 5%;
   height: auto;
   display: flex;
 }
 
-.calculator-instructions div > ul .calculator-instructions div > h2 {
-  margin-left: 20px;
+.calculator-page > ul {
+  margin: 10px 5%;
+  font-family: var(--paragraph-font);
 }
 
-.calculator-page > ul {
-  margin: 10px 20px;
-  font-family: var(--paragraph-font);
+.calculator-page div > h2 {
+  margin: 0;
 }
 
 /* ------------------------------ Smaller Screens ------------------------------ */
